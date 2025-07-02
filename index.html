@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علي حبي - مصمم جرافيك</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="logo.png" alt="علي حبي" class="logo">
+                    <span class="logo-text">علي حبي</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">من أنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">أعمالي</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">خدماتي</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">اتصل بي</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    مرحباً، أنا <span class="highlight">علي حبي</span>
+                    <br>مصمم جرافيك محترف
+                </h1>
+                <p class="hero-description">
+                    أقدم لكم أعمالي الإبداعية في مجال التصميم الجرافيكي. 
+                    متخصص في تصميم الهويات البصرية، تصاميم السوشل ميديا، والمواد المطبوعة.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">عرض أعمالي</a>
+                    <a href="#contact" class="btn btn-secondary">تواصل معي</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <div class="floating-element element-1"></div>
+                    <div class="floating-element element-2"></div>
+                    <div class="floating-element element-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">من أنا؟</h2>
+                <p class="section-subtitle">تعرف على خبرتي ومهاراتي</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        أنا مصمم جرافيك محترف، أمتلك خبرة تزيد عن 4 سنوات في مجال التصميم الجرافيكي. 
+                        تخصصت في تصميم الهويات البصرية، تصاميم السوشل ميديا، والمواد المطبوعة. 
+                        أعمل دائماً على تقديم تصاميم إبداعية تلبي احتياجات العملاء وتحقق أهدافهم.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <i class="fas fa-palette"></i>
+                            <h3>تصميم الجرافيك</h3>
+                            <p>تصميم إبداعي ومتميز</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-video"></i>
+                            <h3>المونتاج</h3>
+                            <p>مونتاج احترافي للفيديو</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <h3>البرمجة</h3>
+                            <p>تطوير المواقع والتطبيقات</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">أعمالي</h2>
+                <p class="section-subtitle">مجموعة من أفضل أعمالي</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="branding">هويات بصرية</button>
+                <button class="filter-btn" data-filter="social">سوشل ميديا</button>
+                <button class="filter-btn" data-filter="print">مطبوعات</button>
+                <button class="filter-btn" data-filter="logo">شعارات</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- هويات بصرية -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/هويةبصريةالصفوة.png" alt="هوية بصرية الصفوة">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>هوية بصرية الصفوة</h3>
+                        <p>تصميم هوية متكاملة لشركة الصفوة</p>
+                    </div>
+                </div>
+                
+                <!-- تصاميم المنتجات -->
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/شاي5كيلوتارقي.png" alt="تصميم عبوة شاي تارقي">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تصميم عبوة شاي تارقي</h3>
+                        <p>تصميم عبوة شاي 5 كيلو</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/شايتارقيمرافقكللتميز.png" alt="شاي تارقي مرافقك للتميز">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>شاي تارقي - مرافقك للتميز</h3>
+                        <p>تصميم إعلاني للمنتج</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/شايتارقيمنالطبيعة.png" alt="شاي تارقي من الطبيعة">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>شاي تارقي من الطبيعة</h3>
+                        <p>تصميم إعلاني طبيعي</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/شايكلالاوقات.png" alt="شاي كل الأوقات">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>شاي كل الأوقات</h3>
+                        <p>تصميم إعلاني متنوع</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/tea5kgsuper+normal.png" alt="تصميم عبوة شاي سوبر">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>عبوة شاي سوبر</h3>
+                        <p>تصميم عبوة 5 كيلو سوبر</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/تايتارقياصفر.png" alt="تاي تارقي أصفر">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تاي تارقي أصفر</h3>
+                        <p>تصميم عبوة بالأصفر</p>
+                    </div>
+                </div>
+                
+                <!-- تصاميم المناسبات -->
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/عيدمباركاولادجلال.png" alt="عيد مبارك أولاد جلال">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>عيد مبارك أولاد جلال</h3>
+                        <p>تصميم تهنئة بالعيد</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/تصميمالصفوةلعيدالاضحى.png" alt="تصميم الصفوة لعيد الأضحى">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تصميم الصفوة لعيد الأضحى</h3>
+                        <p>تهنئة عيد الأضحى</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/عيدالاضحىتارقي.png" alt="عيد الأضحى تارقي">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>عيد الأضحى تارقي</h3>
+                        <p>تهنئة عيد من تارقي</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/تصميمبوست23رمضان2024-Recovered.png" alt="بوست رمضان 2024">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>بوست رمضان 2024</h3>
+                        <p>تصميم منشور رمضاني</p>
+                    </div>
+                </div>
+                
+                <!-- تصاميم اللافتات والإعلانات -->
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/تصميملافتةعملاقة.png" alt="تصميم لافتة عملاقة">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تصميم لافتة عملاقة</h3>
+                        <p>لافتة إعلانية كبيرة</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/رولاب0.8+2.png" alt="رول أب إعلاني">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>رول أب إعلاني</h3>
+                        <p>تصميم رول أب 0.8 متر</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/باش3+1.png" alt="تصميم باش">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تصميم باش</h3>
+                        <p>تصميم إعلاني متميز</p>
+                    </div>
+                </div>
+                
+                <!-- تصاميم خاصة -->
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/Fireflynumber80styleballongolden56071(1).png" alt="رقم 80 بالونات ذهبية">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>رقم 80 بالونات ذهبية</h3>
+                        <p>تصميم احتفالي مميز</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/Fireflyاريدصورةتظهررقم100kعلىشكلبالوناتذهبيةوفيالخلفيةتوجدحقولالشايفيالجزائر96363.png" alt="100k بالونات ذهبية">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>100K بالونات ذهبية</h3>
+                        <p>تصميم احتفالي بحقول الشاي</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/تصميمسباكابيض3690625.png" alt="تصميم سباك أبيض">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تصميم سباك أبيض</h3>
+                        <p>تصميم خدمات السباكة</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/فاخرمنالاخر.png" alt="فاخر من الآخر">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>فاخر من الآخر</h3>
+                        <p>تصميم إعلاني فاخر</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/الانجليزية.png" alt="تصميم الإنجليزية">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تصميم الإنجليزية</h3>
+                        <p>تصميم تعليمي</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/image_Dzr111.png" alt="تصميم خاص">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تصميم خاص</h3>
+                        <p>عمل إبداعي متميز</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/output-IE_PuO2Q6bFPA03xPbkkZ_0.png" alt="تصميم مخرجات">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تصميم مخرجات</h3>
+                        <p>عمل تقني متقدم</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <img src="images/لقطةالشاشة2025-05-08204144.png" alt="تصميم شاشة">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>تصميم واجهة</h3>
+                        <p>تصميم واجهة مستخدم</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/Mesadetrabajo1copy-100.jpg" alt="مساحة العمل">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>مساحة العمل</h3>
+                        <p>تصميم مكتب العمل</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">خدماتي</h2>
+                <p class="section-subtitle">الخدمات التي أقدمها</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>تصميم الهويات البصرية</h3>
+                    <p>تصميم شعارات وهوية بصرية مميزة للعلامات التجارية</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>تصميم السوشل ميديا</h3>
+                    <p>تصميم احترافي للسوشيال ميديا يعكس هوية علامتك بأسلوب إبداعي</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>تصاميم المطبوعات</h3>
+                    <p>تصميم بروشورات، كتالوجات، ومواد مطبوعة أخرى</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>مونتاج الفيديو</h3>
+                    <p>مونتاج ريلز إحترافي يحقق الإنتشار الفيروسي لعلامتك التجارية</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>تحريك الشعارات</h3>
+                    <p>إمنح شعارك حياة وحركة إبداعية لجذب الانتباه</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>تطوير المواقع</h3>
+                    <p>برمجة الواجهة الأمامية وتصميم تجربة المستخدم</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معي</h2>
+                <p class="section-subtitle">لنبدأ مشروعك القادم</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>البريد الإلكتروني</h3>
+                            <p>ali@ah-graphic.online</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>الهاتف</h3>
+                            <p>+966 XX XXX XXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>الموقع</h3>
+                            <p>المملكة العربية السعودية</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="الاسم" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="الموضوع" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="الرسالة" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="علي حبي" class="logo">
+                    <span>علي حبي - مصمم جرافيك</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">الرئيسية</a>
+                    <a href="#about">من أنا</a>
+                    <a href="#portfolio">أعمالي</a>
+                    <a href="#services">خدماتي</a>
+                    <a href="#contact">اتصل بي</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 علي حبي. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
