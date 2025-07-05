@@ -134,7 +134,7 @@ function typeWriter(element, text, speed = 100) {
 // Initialize typing animation when page loads
 window.addEventListener('load', () => {
     const heroTitle = document.querySelector('.hero-title');
-    const originalText = heroTitle.innerHTML;
+    const originalText = heroTitle.textContent;
     
     // Start typing animation after a short delay
     setTimeout(() => {
